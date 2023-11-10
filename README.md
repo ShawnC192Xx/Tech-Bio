@@ -1,57 +1,41 @@
-# Tech-Bio
-<!--This Project was created by DPI to help students use more HTML code with style elements-->
 
+<!DOCTYPE html>
 
- <body>
-      <div class="banner">
-        <img src="profile-pic.jpg" alt="Raghu Betina headshot">
-      </div>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-      <div class="name">
-        Raghu Betina
-      </div>
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
 
-      <div class="social-icons">
-        <a href="https://github.com/raghubetina" target="_blank">
-          GitHub
-        </a>
-
-        <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
-          LinkedIn
-        </a>
-
-        <a href="https://www.instagram.com/raghubetina/" target="_blank">
-          Instagram
-        </a>
-
-        <a href="https://twitter.com/raghubetina" target="_blank">
-          Twitter
-        </a>
-      </div>
-
-      <div class="link">
-        <img
-          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-
-        <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
-          — Paul Graham</a>
-      </div>
-
-      <div class="link">
-        <img src="/thumbnails/typography.jpg">
-
-        <a target="_blank"
-          href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
-          Butterick</a>
-      </div>
-
-      <div class="link">
-        <img
-          src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg">
-
-        <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
-          Life-Saving Checklist — The New Yorker</a>
-      </div>
-
-      <!-- Etc, for as many links as you want -->
-    </body>
+</body>
+</html>
